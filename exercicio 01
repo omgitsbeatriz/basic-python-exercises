@@ -1,0 +1,9 @@
+import os
+
+nome = input('qual o seu nome?')
+print(f'Seu nome com letras maisculas é {nome.upper()}')
+print(f'Seu nome com letras minusculas é {nome.lower()}')
+nome1 = nome.replace(' ','')
+print(f'Seu nome completo tem {len(nome1)} letras.')
+nomeseparado = nome.split()
+print(f'E seu primeiro nome tem {len(nomeseparado[0])} letras.')

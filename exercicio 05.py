@@ -1,0 +1,5 @@
+frase = input('Digite aqui sua frase:')
+numeroa = frase.count('a')
+p1 = frase.find('a')
+up = frase.rfind('a')
+print(f'Sua frase possui {numeroa} letras A. A primeira vez na posição {p1} e a ultima na posição {up}')
