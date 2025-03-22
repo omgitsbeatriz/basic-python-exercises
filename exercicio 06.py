@@ -1,0 +1,5 @@
+nome3 = input('Digite seu nome completo:')
+nomesep = nome3.split()
+primeironome = (nomesep[0])
+ultimonome = (nomesep[-1])
+print(f'Seu primeiro nome é {primeironome} e o ultimo {ultimonome}')
