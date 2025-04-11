@@ -1,10 +1,10 @@
-n1 = int(input('Digite o primeiro valor:'))
-n2 = int(input('Digite o segundo valor:'))
-opcoes = (1, 2, 3, 4, 5)
+n1 = int(input('Digite o primeiro valor: '))
+n2 = int(input('Digite o segundo valor: '))
 
+while True:
     print('\n[1] Somar\n[2] Multiplicar\n[3] Ver o maior\n[4] Novos números\n[5] Sair')
     operacao = int(input('Escolha a operação: '))
-    
+
     if operacao == 1:
         print(f'Soma: {n1 + n2}')
     elif operacao == 2:
@@ -18,4 +18,4 @@ opcoes = (1, 2, 3, 4, 5)
         print('Saindo...')
         break
     else:
-        print('Opção inválida.')
+        print('Opção inválida. Tente novamente.')
