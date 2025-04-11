@@ -1,9 +1,9 @@
-import os
+nome = input('Qual o seu nome? ')
+print(f'Seu nome com letras maiúsculas é {nome.upper()}')
+print(f'Seu nome com letras minúsculas é {nome.lower()}')
 
-nome = input('qual o seu nome?')
-print(f'Seu nome com letras maisculas é {nome.upper()}')
-print(f'Seu nome com letras minusculas é {nome.lower()}')
-nome1 = nome.replace(' ','')
-print(f'Seu nome completo tem {len(nome1)} letras.')
-nomeseparado = nome.split()
-print(f'E seu primeiro nome tem {len(nomeseparado[0])} letras.')
+nome_sem_espacos = nome.replace(' ', '')
+print(f'Seu nome completo tem {len(nome_sem_espacos)} letras.')
+
+nomes = nome.split()
+print(f'E seu primeiro nome tem {len(nomes[0])} letras.')
