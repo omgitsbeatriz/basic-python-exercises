@@ -1,9 +1,10 @@
-numeros = ('zero', 'um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez' )
+numeros = ('zero', 'um', 'dois', 'três', 'quatro', 'cinco', 
+           'seis', 'sete', 'oito', 'nove', 'dez')
 
 while True:
-    n = int(input('Digite numero de 0 a 10: '))
-    if n > 10 or n < 0:
-        n = int(input('Digite numero de 0 a 10: '))
-    break
+    n = int(input('Digite um número de 0 a 10: '))
+    if 0 <= n <= 10:
+        break
+    print('Número inválido. Tente novamente.')
 
-print(f"voce digitou: {numeros[n]}")
+print(f'Você digitou: {numeros[n]}')
